@@ -64,7 +64,12 @@ class Account {
     // for account sending { transactionType: 'Transfer', amount: 300, to: recipientName }
     // for account recieving { transactionType: 'Received', amount: 300, from: senderName }
 
+    //check usre account balance
     // Example: checkBalance()
+    checkBalance() {
+        // console.log(`Your current balance is: $${this.balance}`);
+        return this.balance;
+        }
 }
 
 //<-------------------------------DO NOT WRITE BELOW THIS LINE------------------------------>
